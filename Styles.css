@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    resize: none;
+}
+
+:root{
+    --font_bebas: 'Bebas Neue', cursive;
+    --font_mont: 'Montserrat', sans-serif;
+    --verde: #669966;
+    --branco_pastel:#eee5da ;
+}
+
+.Alinhamento{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: var(--verde);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo{
+    width: 150px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+.Menu{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    list-style: none;
+}
+
+.Menu a{
+    text-transform: uppercase;
+    color: white;   
+    text-decoration: none;
+    font-family: var(--font_mont);
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.Menu a:hover{
+    color: var(--branco_pastel);
+    border-bottom: 2px solid var(--branco_pastel);
+}
+
+main{
+    background-color: var(--branco_pastel);
+
+}
+
+h1{
+    position: absolute;
+    left: -999em;
+    width: 1em;
+    overflow: hidden;
+}
+
+.Quem_Somos{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+    align-items: center;
+}
+
+.Foto_1{
+    width: 700px;
+    box-shadow: 10px 10px 40px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 70px;
+}
+
+.Sobre {
+    text-align: center;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Sobre_Título{
+    font-family: var(--font_bebas);
+    font-size: 60px;
+}
+
+.Sobre_Texto{
+    font-family: var(--font_mont);
+    font-size: 25px;
+}
+
+.btn_esg{
+    background: var(--verde);
+    border-radius: 30px;
+    width: 250px;
+    height: 60px;
+    font-size: 25px;
+    box-shadow: 5px 5px 50px 5px rgba(0, 0, 0, 0.4);
+}
+
+.btn_esg a{
+    text-decoration: none;
+    font-family: var(--font_bebas);
+    color: white;
+}
+
+.Data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: var(--font_bebas);
+    font-size: 80px;
+    color: var(--branco_pastel);
+    background-color: var(--verde);
+    padding: 100px;
+}
+
+span{
+    text-transform: uppercase;
+}
+
+.Imagens{
+    background-color: var(--verde);
+    padding-bottom: 100px;
+}
+
+.Imgs{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.Imgs>* {
+    width: 475px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 40px 10px rgba(0, 0, 0, 0.4);
+}
+
+.ESG{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+.Sobre_ESG{
+    text-align: center;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.Sobre_ESG_Título{
+    font-family: var(--font_bebas);
+    font-size: 60px;
+}
+
+.Sobre_ESG_Texto{
+    font-family: var(--font_mont);
+    font-size: 30px;
+}
+
+.ESG img{
+    box-shadow: 10px 10px 40px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 70px;
+}
+
+.Formulário{
+    background-color: var(--verde);
+    padding: 100px 0;
+}
+
+.Formulário_Título{
+    text-align: center;
+    font-family: var(--font_bebas);
+    font-size: 60px;
+    color: var(--branco_pastel);
+    margin: 15px;
+}
+
+form{
+    color: white;
+    font-family: var(--font_mont);
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+form>div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 700px;
+    width:90%;
+    margin: 0 auto;
+}
+
+label{
+    font-size: 25px;
+}
+
+input{
+    height: 35px;
+    padding: 20px;
+}
+
+textarea{
+    padding: 20px;
+}
+
+.Borda{
+    border: 1px solid var(--branco_pastel);
+    border-radius: 15px;
+}
+
+.Btn_Forms{
+    background: white;
+    border: var(--branco_pastel);
+    border-radius:30px;
+    width:  200px;
+    height: 60px;
+    font-size: 25px;
+    color: var(--verde);
+    margin: 0 auto;
+    box-shadow: 5px 5px 40px 5px rgba(0, 0, 0, 0.4);
+}
+
+.Mapa{
+    width: 580px;
+}
+
+.Contato{
+    padding: 100px 0;
+}
+
+.Contato_Título{
+    font-family: var(--font_bebas);
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.Conteúdo_Contato{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Borda_Mapa{
+    border: 5px solid var(--verde);
+    width: 700px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Contato_Info{
+    font-family: var(--font_mont);
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Info{
+    display: flex;
+    align-items: center;
+}
+
+.Info>i{
+    margin-right: 20px;
+    color: var(--verde);
+}
+
+footer{
+    background-color: var(--verde);
+    color: #fff;
+    font-family: var(--font_bebas);
+    font-size: 19px;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1440px){
+    #Burger{
+        display: none;
+    }
+
+    .Alinhamento{
+        width: 100%;
+    }
+
+    nav{
+        padding: 0 50px;
+    }
+
+    .Sobre{
+        max-width: 500px;
+    }
+
+    .Quem_Somos{
+        padding: 100px 50px;
+    }
+
+    .Imgs{
+        flex-wrap: wrap;
+    }
+
+    .ESG{
+        padding: 100px 50px;
+    }
+
+    .Sobre_ESG_Texto{
+        font-size: 26px;
+    }
+
+    .ESG img{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .Foto_1{
+        width: 550px;
+    }
+
+    .ESG img{
+        width: 45%;
+    }
+
+    .Sobre_ESG_Texto{
+        font-size: 22px;
+    }
+
+    .Sobre_ESG{
+        width: 480px;
+    }
+}
+
+@media screen and (min-width:900px) {
+    #Burger{
+        display: none;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .Quem_Somos{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .Sobre{
+        margin-top: 30px;
+    }
+
+    .Data{
+        font-size: 85px;
+    }
+
+    .ESG{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .Sobre_ESG{
+        width: 600px;
+    }
+
+    .Conteúdo_Contato{
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #Burger{
+        display: block;
+        color: white;
+        font-size: 55px;
+    }
+
+    #Itens{
+        position: absolute;
+        height: 92vh;
+        width: 50vw;
+        top: 16vh;
+        right: 0;
+        flex-direction: column;
+        align-items: center;
+        background-color: var(--verde);
+        gap: 50px;
+    }
+
+    .Menu li{
+        padding: 50px;
+    }
+
+    .Menu{
+        display: none;
+    }
+
+    .Sobre{
+        margin-top: 30px;
+    }
+
+    .Data{
+        font-size: 60px;
+    }
+
+    .Imgs{
+        gap: 50px;
+    }
+
+    .ESG{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Sobre_ESG{
+        width: 50%;
+    }
+}
+@media screen and (max-width:580px){
+    #Burger{
+        display: block;
+        color: white;
+        font-size: 55px;
+    }
+
+    #Itens{
+        position: absolute;
+        height: 92vh;
+        width: 50vw;
+        top: 16vh;
+        right: 0;
+        flex-direction: column;
+        align-items: center;
+        background-color: var(--verde);
+        gap: 50px;
+    }
+
+    .Menu li{
+        padding: 50px;
+    }
+
+    .Menu{
+        display: none;
+    }
+
+    .Data{
+        font-size: 45px;
+    }
+
+    .ESG img{
+        width: 70%;
+    }
+
+    .Mapa{
+        width: 400px;
+    }
+
+    .Borda_Mapa{
+        width: 480px;
+    }
+
+    .Conteúdo_Contato{
+        align-items: center;
+        justify-content: center;
+    }
+}
